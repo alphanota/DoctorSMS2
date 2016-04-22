@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="paste_action_drag_started">#ff99ccff</color>
+    <color name="paste_action_drag_entered">#ffccffcc</color>
+    <color name="recycler_paste_action_drag_entered">#FF13100A</color>
+
+</resources>

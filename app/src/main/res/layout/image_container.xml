@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corner">
+
+    <ImageView
+        android:id="@+id/photo_view_container"
+        android:layout_width="@dimen/activity_image_view_width"
+        android:layout_height="@dimen/activity_image_view_height"
+        android:layout_margin="@dimen/activity_image_view_margin"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"/>
+
+    <LinearLayout
+        android:id="@+id/image_text_holder"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginLeft="6dp"
+        android:layout_marginBottom="6dp">
+
+        <View style="@style/Divider"/>
+        <TextView
+            android:id="@+id/image_op"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            tools:text="DarkMaster"
+            android:ellipsize="marquee"
+            android:text="Description"
+            android:textSize="15sp"
+            android:textColor="#FF6600"
+            android:textStyle="normal|bold"/>
+
+        <TextView
+            android:id="@+id/image_op_message"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            tools:text="Im gonna pound the fuck out of you, little bitch"
+            android:ellipsize="marquee"
+            android:text="Description"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

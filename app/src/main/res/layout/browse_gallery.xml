@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        >
+
+    <ImageButton
+        android:id="@+id/dismiss_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:text="Click Me"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="true"
+        android:background="#35302C"
+        android:layout_toRightOf="@id/dismiss_button"
+        android:layout_alignParentRight="true">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/gallery_view"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:dividerHeight="6dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:transcriptMode="alwaysScroll"/>
+    </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

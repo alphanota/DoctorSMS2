@@ -1,0 +1,13 @@
+CREATE TABLE photos(
+    id INTEGER,
+    imageBinary BLOB,
+    PRIMARY KEY(imageBinary)
+);
+
+CREATE TABLE messageText(
+    id INTEGER,
+    message TEXT,
+    primary KEY(id)
+);
+
+CREATE TABLE
